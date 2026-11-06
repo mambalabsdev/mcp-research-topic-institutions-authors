@@ -1,0 +1,50 @@
+{
+  "name": "@mambalabsdev/mcp-research-topic-institutions-authors",
+  "version": "1.0.0",
+  "description": "MCP server for Research Topic Institutions and Authors. Turn a research topic into ranked institutions and authors from OpenAlex, with newest papers. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-research-topic-institutions-authors": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "openalex",
+    "research",
+    "academic",
+    "institutions",
+    "authors",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/research-topic-institutions-authors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-research-topic-institutions-authors"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-research-topic-institutions-authors"
+}

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-research-topic-institutions-authors": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-research-topic-institutions-authors"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
