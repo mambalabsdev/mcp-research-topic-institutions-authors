@@ -1,7 +1,7 @@
 {
   "manifest_version": "0.3",
   "name": "mcp-research-topic-institutions-authors",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for Research Topic Institutions and Authors. Turn a research topic into ranked institutions and authors from OpenAlex, with newest papers. Runs on Apify. Clay-ready output.",
   "author": {
     "name": "Mamba Labs"
